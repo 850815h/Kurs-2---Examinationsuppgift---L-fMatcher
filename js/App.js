@@ -1,0 +1,4 @@
+
+// Class App
+
+new Start();

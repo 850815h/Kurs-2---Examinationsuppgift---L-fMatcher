@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+
+    max-width: 500px;
+
+    border-radius: 10px;
+}
+
+/****************************************************************************************/
+
+button{
+    background: rgb(34, 0, 0);
+    color: rgb(207, 0, 0);
+
+    font-family: 'Calibri';
+    font-size: 14px;
+    font-weight: 600;
+          
+    min-width: 0%;
+    max-width: 80%;
+        
+    text-align: center;
+    justify-self: center;
+}
+button:hover{
+    color: rgb(255, 48, 41);
+    box-shadow: 0px 0px 5px rgb(255, 145, 250);
+    text-shadow: 0px 0px 11px rgb(237, 103, 255);
+
+    font-weight: 900;
+    
+    transition-duration: .6s;
+    }
+
+/****************************************************************************************/
+
+h1{
+    margin: 0px;
+    padding: 20px;
+    color: rgb(255, 79, 255);
+    font-size: 16px;
+    background: rgb(148, 13, 13);
+
+    min-width: 300px;
+    max-width: 300px;
+
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+/****************************************************************************************/
+
+input, select{
+    width: 200px;
+    height: 20px;
+    background-color: rgb(119, 45, 40);
+    color: rgb(248, 248, 248);
+    padding: 1px;
+    margin: 1px;
+    border: none;
+    cursor: pointer;
+
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  input:hover, select:hover {
+    background-color: #3d0000;
+  }
+
+/****************************************************************************************/
+
+.whatToShowContainer{
+    display: grid;    
+    grid-template-columns: 1fr;
+    grid-gap: .1em;
+
+    background: rgb(95, 3, 0);
+    color: rgb(223, 51, 122);
+
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+    .whatToShowContainer>img{ 
+        background: rgb(95, 3, 0);        
+        box-shadow: 0px 0px 5px rgb(255, 51, 0);
+        color: plum;
+        padding: 10px;
+        margin: 0px;
+        width: 150px;
+        height: 150px;
+        
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+    }
+    
+#buttonMenu{        
+    display: grid;    
+    grid-template-columns: repeat(3, 80px);
+    grid-gap: .5em;
+
+    padding: 20px;
+
+    background-image: url("/img/hearts.jpg");
+    background-size: 100%;
+
+    align-content: center;
+    justify-content: center;
+}
+
+/****************************************************************************************/
